@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 
-const url = 'https://api.github.com/users';
+const url = 'https://api.github.com/users'; // api
 
 const RenderData = () => {
   const [users, setUsers] = useState([])
 
+  
   useEffect(() => {
 
     const fetchApi = async () =>{
